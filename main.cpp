@@ -1,9 +1,8 @@
-#include <iostream>
+#include "zoo_tree.h"
 
-using std::cout;
-using std::endl;
-
-int main() {
-  cout << "Hello World!" << endl;
+int main()
+{
+	zoo_tree game;
+	game.play();
   return 0;
 }

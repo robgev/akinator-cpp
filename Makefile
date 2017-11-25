@@ -4,7 +4,7 @@ program := main
 flags := -std=c++14 -g -Wall -Wextra -I./
 lib_name := libmain.a
 # Just add another file here when you're done, ending in .o
-objs := main.o
+objs := main.o zoo_tree.o
 os := $(shell uname -s)
 
 ifeq ($(os),Darwin)
